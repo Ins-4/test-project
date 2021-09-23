@@ -37,6 +37,12 @@ h3{
     background-color: #fff;
     color: #48974c;
 }
+button, button > span{
+    font-family: 'PT Sans';
+    font-weight: 700;
+    
+}
+
 
 header{
     background: #fff;
@@ -370,6 +376,7 @@ main {
     font-size: 16px;
     line-height: 24px;
 }
+
 .news .small-news .small-news-item button{
     margin-top: 18px;
     font-size: 16px;
@@ -379,6 +386,7 @@ main {
     display: flex;
     align-items: baseline;
 }
+
 
 .small-news-item button:before {
     content: "\e906";
