@@ -240,14 +240,20 @@ main {
 
 .title-block_slider .title-block_slide .custom-dots{
     display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
 }
 .title-block_slider .title-block_slide .custom-dots li{
-    width: 16px;
-    height: 16px;
-    margin: 8px;
+    width: 13px;
+    height: 13px;
+    margin-right: 9px;
     background-color: #fff;
     border-radius: 8px;
     cursor: pointer;
+    opacity: 0.5;
+}
+.title-block_slider .title-block_slide .custom-dots li.active{
+    opacity: 1;
 }
 
 .slick-list {
@@ -463,6 +469,11 @@ main {
     background-color: #fff;
     margin-right: 8px;
 }
+.pagination ul li.dots{
+    width: auto;
+    height: 56px;
+    background-color: initial;
+}
 .pagination ul li.active{
     color: #fff;
     background-color: #48974c;
@@ -556,6 +567,10 @@ footer{
     font-weight: 400;
     line-height: 34px;
     text-transform: uppercase;
+}
+.footer_item-social-links img{
+    margin-top: 40px;
+    margin-left: auto;
 }
 .footer_item .social-links a{
     font-size: 18px;

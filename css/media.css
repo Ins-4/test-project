@@ -246,9 +246,13 @@
         margin-bottom: 10px;
         flex-direction: column;
     }
+    .footer_item, .footer_item-text {
+        max-width: initial;
+    }
     .footer_item-text {
         width: initial;
         margin-right: 0;
+        max-width: initial;
     }
     .footer_item h2 {
         text-align: center;
@@ -265,6 +269,9 @@
     }
     .footer_item .social-links{
         text-align: center;
+    }
+    .footer_item-social-links img {
+        margin-top: 20px;
     }
 
     footer .copyring {
