@@ -262,6 +262,9 @@ main {
     flex-wrap: nowrap;
     justify-content: space-between;
 }
+.news p{
+    color: #737373;
+}
 
 .news .big-news{
     /* display: flex;
@@ -292,7 +295,7 @@ main {
 }
 .news .big-news .big-news-item h3{
     font-size: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 16px;
 }
 .news .big-news .big-news-item p{
     overflow: hidden;
@@ -339,8 +342,6 @@ main {
 }
 
 
-
-
 .news .small-news{
     display: flex;
     flex-wrap: wrap;
@@ -357,7 +358,7 @@ main {
 }
 .news .small-news .small-news-item h3{
     font-size: 24px;
-    padding: 17px 0 22px;
+    padding: 15px 0 18px;
 }
 
 .news .small-news .small-news-item p{
@@ -370,7 +371,7 @@ main {
     line-height: 24px;
 }
 .news .small-news .small-news-item button{
-    margin-top: 17px;
+    margin-top: 18px;
     font-size: 16px;
     line-height: 24px;
     color: #48974c;
